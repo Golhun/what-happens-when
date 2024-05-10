@@ -27,17 +27,9 @@ Table of Contents
 
 The "g" key is pressed
 ----------------------
-The following sections explain the physical keyboard actions
-and the OS interrupts. When you press the key "g" the browser receives the
-event and the auto-complete functions kick in.
-Depending on your browser's algorithm and if you are in
-private/incognito mode or not various suggestions will be presented
-to you in the dropdown below the URL bar. Most of these algorithms sort
-and prioritize results based on search history, bookmarks, cookies, and
-popular searches from the internet as a whole. As you are typing
-"google.com" many blocks of code run and the suggestions will be refined
-with each keypress. It may even suggest "google.com" before you finish typing
-it.
+When you type ‘g’ into your browser’s address bar, initiating a journey towards ‘google.com,’ your browser undergoes a process similar to ARP in networking. It internally maps partial inputs to complete URLs, akin to ARP mapping IP addresses to MAC addresses. This initiation phase involves the browser scanning its records and predictive algorithms to match the input with known URLs, mirroring ARP’s function of mapping IP addresses to MAC addresses. The browser's "ARP Cache," analogous to ARP cache, stores mappings for efficient retrieval, enhancing the browsing experience by reducing URL resolution time and improving overall navigation speed.
+
+As the "g" key is pressed, the browser receives the event and the auto-complete functions kick in. Depending on your browser's algorithm and whether you are in private/incognito mode or not, various suggestions will be presented to you in the dropdown below the URL bar. Most of these algorithms sort and prioritize results based on search history, bookmarks, cookies, and popular searches from the internet as a whole. As you type "google.com," many blocks of code run, and the suggestions refine with each keypress, potentially even suggesting "google.com" before you finish typing it.
 
 The "enter" key bottoms out
 ---------------------------
